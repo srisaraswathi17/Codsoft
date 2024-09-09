@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #fff;
+            background-color: #000;
+        }
+
+        header {
+            background: #040a5a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #000;
+            border-radius: 8px;
+            text-align: center; /* Center content inside sections */
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+/* Add this to your existing CSS */
+#projects h2 {
+    color:#134ecc; /* Violet color for project headers */
+}
+
+#projects p {
+    font-size: 16px; /* Ensure paragraphs are the same size */
+}
+
+.project {
+    border: 1px solid #ddd; /* Add a border to differentiate projects */
+    border-radius: 8px; /* Rounded corners for the project boxes */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #111; /* Slightly different background color for each project */
+}
+
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background: #134ecc;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #7a90da;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #040a5a;
+            color: #fff;
+        }
+
+        #photo-upload {
+            display: block;
+            margin: 20px auto;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%; /* Makes the image circular */
+            width: 200px; /* Adjust size as needed */
+            height: 200px; /* Adjust size as needed */
+            object-fit: cover; /* Ensures the image covers the circle properly */
+        }
+
+        #resume-download {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #134ecc;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        #resume-download:hover {
+            background-color: #606ee7;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sri Saraswathi</h1>
+        <p>Web Developer | Designer | Coder</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I’m Srisaraswathi, a passionate web developer with experience in building responsive and interactive websites. I love coding, designing, and solving real-world problems through technology.</p>
+        <br>
+        <!-- Centered Image -->
+        <img src="C:\Users\ADMIN\Desktop\saras\saras.jpeg" alt="Srisaraswathi's Photo">
+        
+        <!-- Centered Resume Download Button -->
+        <a href="C:\Users\ADMIN\Desktop\saras\Resume Srisaraswathi.pdf" download id="resume-download">Download Resume</a>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h2>Nova Nectar</h2>
+            <h3>Simple Landing Page</h3>
+            <p>In this project, I created a simple landing page for a chocolate factory with a home page and a responsive login page using HTML, CSS, and JavaScript.</p>
+            <h3>Travelling Website</h3>
+            <p>I created a responsive Travel Website with features such as booking options, travel reviews, and login and contact forms.</p>
+            <h3><a href="https://github.com/srisaraswathi17/NovaNectar" target="_blank">View Project</a></h3>
+        </div>
+        
+        <div class="project">
+            <h2>Techno Hacks</h2>
+            <h3>Currency Converter</h3>
+            <p>I developed a currency converter using HTML, CSS, and JavaScript to ensure accurate conversion.</p>
+            <h3>Countdown Timer</h3>
+            <p>A webpage for a countdown timer was created, ensuring efficient performance from set time to zero.</p>
+            <h3>Registration Form</h3>
+            <p>I developed a registration form for a national level symposium, featuring input validation and error messages for the best user experience.</p>
+            <h3><a href="https://github.com/srisaraswathi17/TechnoHacks" target="_blank">View Project</a></h3>
+        </div>
+        
+        <div class="project">
+            <h2>Codsoft</h2>
+            <h3>Portfolio</h3>
+            <p>I created a personal portfolio that showcases my skills and projects and also attached my resume to provide further information about me using HTML, CSS, and JavaScript.</p>
+            <h3>Landing Page</h3>
+            <p>I developed a responsive landing page for an ice cream parlor with a user-friendly interface.</p>
+            <h3>Calculator</h3>
+            <p>I created a calculator webpage that accurately computes basic arithmetic operations.</p>
+            <h3><a href="https://github.com/srisaraswathi17/Codsoft" target="_blank">View Project</a></h3>
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sri Saraswathi. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if(name && email && message) {
+                alert(`Thank you, ${name}! Your message has been sent.`);
+                // Reset form
+                this.reset();
+            } else {
+                alert('Please fill out all fields.');
+            }
+        });
+    </script>
+</body>
+</html>
